@@ -1,0 +1,8 @@
+.stats {
+  background-color: #141d2f;
+  li {
+    h4 {
+      color: white;
+    }
+  }
+}

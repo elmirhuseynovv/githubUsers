@@ -1,0 +1,25 @@
+.userLinks {
+  width: 100%;
+  display: grid;
+  justify-content: space-between;
+  align-items: flex-start;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: repeat(2, auto);
+  column-gap: 18px;
+  row-gap: 18px;
+  flex-wrap: wrap;
+  gap: 20px;
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    a {
+      text-decoration: none;
+    }
+  }
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+}

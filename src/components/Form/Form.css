@@ -1,0 +1,38 @@
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 36px 0 24px 0;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%;
+  gap: 20px;
+  svg {
+    width: 30px;
+    fill: #0279ff;
+    margin-left: 20px;
+  }
+  input {
+    width: 80%;
+    padding: 10px;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 1.125rem;
+    line-height: 25px;
+    padding: 6px 0;
+    margin-right: 20px;
+    flex-grow: 1;
+    min-width: 0;
+  }
+
+  button {
+    background-color: #0279ff;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 10px;
+    padding: 13px 24px;
+    font-weight: 700;
+    border: none;
+  }
+}
