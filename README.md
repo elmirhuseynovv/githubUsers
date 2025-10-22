@@ -8,40 +8,40 @@ Although using Redux Toolkit for a small project like this might seem a bit “o
 
 ⚙️ Tech Stack
 
-⚛️ React (Vite) — high-performance frontend setup
+  ⚛️ React (Vite) — high-performance frontend setup
 
-🧰 Redux Toolkit — for state management
+  🧰 Redux Toolkit — for state management
 
-🍞 React-Toastify — for elegant notifications
+  🍞 React-Toastify — for elegant notifications
 
-💅 CSS Modules — component-level styling
+  💅 CSS Modules — component-level styling
 
-🧩 Highly Componentized Architecture — every feature split into reusable parts
+  🧩 Highly Componentized Architecture — every feature split into reusable parts
 
 🚀 Features
 
-Search any GitHub username and instantly get user data
+  Search any GitHub username and instantly get user data
 
-Success and error handling via toast notifications
+  Success and error handling via toast notifications
 
-Loading state feedback for better UX
+  Loading state feedback for better UX
 
-Fully modular and reusable component structure
+  Fully modular and reusable component structure
 
 🧠 What I Learned
 
-Managing async logic with Redux Toolkit
+  Managing async logic with Redux Toolkit
 
-Fetching and handling API responses
+  Fetching and handling API responses
 
-Improving UX with Toastify
+  Improving UX with Toastify
 
-Structuring React projects with Vite for performance
+  Structuring React projects with Vite for performance
 
 🔗 Future Improvements
 
-Add light/dark theme toggle
+  Add light/dark theme toggle
 
-Display more detailed GitHub user statistics
+  Display more detailed GitHub user statistics
 
-Implement Axios for better API handling
+  Implement Axios for better API handling
