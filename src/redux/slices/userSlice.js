@@ -15,34 +15,22 @@ export const fetchUserByUsername = createAsyncThunk(
 const initialState = {
   user: null,
   status: "idle",
-  error: null,
 };
 
 const userSlice = createSlice({
   name: "user",
   initialState,
-  reducers: {
-    clearUser: (state) => {
-      state.user = null;
-      state.status = "idle";
-      state.error = null;
-    },
-  },
+  reducers: {},
   extraReducers: (builder) => {
     builder
-      .addCase(fetchUserByUsername.pending, (state) => {
-        state.status = "loading";
-      })
       .addCase(fetchUserByUsername.fulfilled, (state, action) => {
         state.status = "succeeded";
         state.user = action.payload;
       })
       .addCase(fetchUserByUsername.rejected, (state, action) => {
         state.status = "failed";
-        state.error = action.error.message;
       });
   },
 });
 
-export const { clearUser } = userSlice.actions;
 export default userSlice.reducer;
